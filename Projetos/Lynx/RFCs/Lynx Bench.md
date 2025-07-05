@@ -57,7 +57,7 @@ Os formatters podem ser selecionados por JSON ou argumentos de linha de comando.
 O ponto de encaixe dos formatters é logo após a execução de um batch de testes (chunking feito a cada 64kb de dados). Estas estruturas receberão TestResults diretamente, e devem providenciar uma função `format(&self, chunk: Vec<TestResult>) -> String`. Eles funcionam como Serializadores e a forma mais comum de implementa-los é com o `serde`.
 
 ## Runners
-Runners sai o backbone do sistema, eles agregam ferramentas e recebem informações para processar sobre as funções marcadas para teste. 
+Runners são o backbone do sistema, eles agregam ferramentas e recebem informações para processar sobre as funções marcadas para teste. 
 Eles funcionam utilizando o fluxo de enable->disable->flush providenciados pelas ferramentas dinâmicas, ou separando partes do código (assembly, binario ou Rust) para enviar às ferramentas estáticas.
 
 O funcionamento dos runners é o seguinte:
@@ -86,5 +86,4 @@ Quando os runners precisam executar um analisador estático, eles primeiro devem
 ## Ferramentas Dinâmicas
 Analisam informações de performance de processos em execução. Estas ferramentas são as mais poderosas, porém estão sujeitas a erros por motivos aleatórios (número anormal de threads em execução na hora do benchmark por exemplo).
 
-Quando um runner encontra um desses, segue o pipeline descrito na seção [Runner](#Runner)
-
+Quando um runner encontra um desses, segue o pipeline descrito na seção [[#Runners]]
