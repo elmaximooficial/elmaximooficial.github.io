@@ -6,8 +6,13 @@ O Frontend é o módulo que interage diretamente com o usuário, ele é respons�
 Além da interface direta com o usuário,  o Frontend é responsável por planejar a execução e formatar a saída para um padrão estruturado usando Formatters.
 
 ```mermaid
-  [*] ---> Test
+  flowchart LR
+    A((lynx-bench))--->B[CLI Parse]
+    A--->C[JSON Parse]
+    D((cargo bench))--->E[Parse Macros]
+    
 ```
+
 
 ### Macros
 Existem duas macros principais: 
