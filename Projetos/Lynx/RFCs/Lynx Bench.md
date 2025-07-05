@@ -6,14 +6,16 @@ O Frontend é o módulo que interage diretamente com o usuário, ele é respons�
 Além da interface direta com o usuário,  o Frontend é responsável por planejar a execução e formatar a saída para um padrão estruturado usando Formatters.
 
 ```mermaid
-  flowchart LR
-    A((lynx-bench))--->B[CLI Parse]
-    A--->C[JSON Parse]
-    D((cargo bench))--->E[Parse Macros]
-    E--->F[Generate Main]
-    F--->G[Create Performance Counter Groups]
-    G--->H[Insert tests into runners]
-    H
+  flowchart TD
+    A((lynx-bench))--->B[Ler CLI]
+    B-->G
+    D((cargo bench))--->E[Ler Macros]
+    E--->F[Criar Main]
+    F--->G[Criar Grupos de Contadores de Performance]
+    G--->H[Inserir Benchmarks e Contadores nos Runners]
+    H--->I[Executar]
+    A--->C[Ler JSON]
+    C-->G
 ```
 
 
@@ -21,7 +23,13 @@ Além da interface direta com o usuário,  o Frontend é responsável por planej
 Existem duas macros principais: 
  - `benchmark!(callback(args), runner, name?, description?, {domain: datapoints}+))` isso incluíra o Benchmark com todas as outras configurações passadas para a Macro para execução no Runner. O nome e descrição são opcionais, quando não são providenciados, o nome será o nome da função e a descrição será o conjunto de datapoints coletados
  - `benchmark_main!(runners)` cria a função main do benchmark, onde todos os runners providenciados serão realmente criados e executados (precisamos disso pois os runners precisam ser estáticos e thread-safe)
- Com estes dois pontos de entrada, fechamos a interface final via código da ferramenta.
+ Ao gerar a macro em tempo de compilação (`cargo bench`) uma função main com estrutura similar a esta:
+
+```rust
+  fn main(){
+    
+  }
+```
 
 #### Customização 
 Esta parte do pipeline também pode ser customizado, podendo ser adicionadas novas ferramentas a um runner, provendo novos pontos de dados e/ou tratamento de informações .
