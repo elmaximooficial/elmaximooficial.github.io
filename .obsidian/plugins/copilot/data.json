@@ -64,8 +64,13 @@
       "core": true,
       "projectEnabled": true,
       "capabilities": [
-        "vision"
-      ]
+        "reasoning",
+        "vision",
+        "websearch"
+      ],
+      "displayName": "Gemini Fast",
+      "maxTokens": 65000,
+      "temperature": 0.25
     },
     {
       "name": "google/gemini-2.5-flash",
