@@ -18,20 +18,20 @@
   "mistralApiKey": "",
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "gpt-4.1|openai",
-  "embeddingModelKey": "text-embedding-3-small|openai",
+  "defaultModelKey": "gemini-2.5-flash-lite-preview-06-17|google",
+  "embeddingModelKey": "text-embedding-3-large|openai",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
-  "userSystemPrompt": "",
+  "userSystemPrompt": "You are an expert Rust, C and Python programmer, who spent years developing SQLite, Linux the Rust Compiler, Cargo, Syn, and various games. When I ask you something about these languages or programming in general, you remember what you've learned at this projects. You have never entered StackOverflow or Reddit.",
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
   "defaultSaveFolder": "copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
-  "autosaveChat": false,
+  "autosaveChat": true,
   "includeActiveNoteAsContext": true,
-  "defaultOpenArea": "view",
+  "defaultOpenArea": "editor",
   "customPromptsFolder": "copilot-custom-prompts",
   "indexVaultToVectorStore": "ON MODE SWITCH",
   "qaExclusions": "",
@@ -147,8 +147,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ]
     },
     {
@@ -157,8 +157,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ]
     },
     {
@@ -231,6 +231,12 @@
       "capabilities": [
         "reasoning"
       ]
+    },
+    {
+      "name": "gemini-2.5-flash-lite-preview-06-17",
+      "provider": "google",
+      "apiKey": "AIzaSyCexTjIgBjLgjtOq50n2bb1Ilx4yTIlwUY",
+      "enabled": true
     }
   ],
   "activeEmbeddingModels": [
@@ -312,10 +318,10 @@
   "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
   "inlineEditCommands": [],
   "projectList": [],
-  "enableAutocomplete": false,
+  "enableAutocomplete": true,
   "autocompleteAcceptKey": "Tab",
   "allowAdditionalContext": true,
-  "enableWordCompletion": false,
+  "enableWordCompletion": true,
   "lastDismissedVersion": null,
   "passMarkdownImages": true,
   "enableCustomPromptTemplating": true,

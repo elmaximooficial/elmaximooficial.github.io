@@ -11,10 +11,10 @@
             "id": "b3830f0515733a04",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           }
         ]
@@ -153,6 +153,8 @@
   },
   "active": "b3830f0515733a04",
   "lastOpenFiles": [
+    "copilot-conversations/9.11_and_9.8,_which_is_bigger@20250704_234433.md",
+    "copilot-conversations",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
