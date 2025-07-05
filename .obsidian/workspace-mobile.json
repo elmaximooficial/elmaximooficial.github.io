@@ -45,8 +45,7 @@
               "title": "Lynx Bench"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,8 +181,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a84f04aca8214f8c",
+  "active": "b3830f0515733a04",
   "lastOpenFiles": [
+    "copilot-conversations/O_Lynx_Bench_é_um_backend_de_testes_de_performance@20250705_003845.md",
     "Projetos/Lynx/RFCs/Template.md",
     "Projetos/Lynx/RFCs/Lynx Bench.md",
     "Untitled.md",
