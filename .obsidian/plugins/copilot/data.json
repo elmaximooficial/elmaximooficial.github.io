@@ -19,7 +19,7 @@
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
   "defaultModelKey": "gemini-2.5-flash-lite-preview-06-17|google",
-  "embeddingModelKey": "text-embedding-3-large|openai",
+  "embeddingModelKey": "text-embedding-3-small|openai",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
