@@ -10,7 +10,10 @@ Além da interface direta com o usuário,  o Frontend é responsável por planej
     A((lynx-bench))--->B[CLI Parse]
     A--->C[JSON Parse]
     D((cargo bench))--->E[Parse Macros]
-    
+    E--->F[Generate Main]
+    F--->G[Create Performance Counter Groups]
+    G--->H[Insert tests into runners]
+    H
 ```
 
 
