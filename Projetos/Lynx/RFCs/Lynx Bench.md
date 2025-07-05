@@ -21,4 +21,19 @@ Os formatters podem ser selecionados por JSON ou argumentos de linha de comando.
 
 O ponto de encaixe dos formatters é logo após a execução de um batch de testes (chunking feito a cada 64kb de dados). Estas estruturas receberão TestResults diretamente, e devem providenciar uma função `format(&self, chunk: Vec<TestResult>) -> String`. Eles funcionam como Serializadores e a forma mais comum de implementa-los é com o `serde`.
 
-#
+## Runners
+Runners sai o backbone do sistema, eles agregam ferramentas e recebem informações para processar sobre as funções marcadas para teste. 
+Eles funcionam utilizando o fluxo de enable->disable->flush providenciados pelas ferramentas dinâmicas, ou separando partes do código (assembly, binario ou Rust) para enviar às ferramentas estáticas.
+
+## Statistics
+Esta é outra parte altamente customizável do pipeline, providenciando funções de análise e tratamento de dados, transformando resultados de testes em uma forma matematicamente compreensível (geralmente através de relações, funções ).
+
+## Ferramentas
+As ferramentas são quaisquer estruturas em Rust que implemente `DynamicTool` ou `StaticTool`.
+
+Os dois tipos de ferramentas têm pipelines diferentes, porém ambos retornam TestResult 
+
+### Ferramentas estáticas
+São ferramentas que analisam código, seja ele Rust, assembly ou binário, e retornam informações sobre ele. Um exemplo disso é o LLVM-MCA, que recebe código em assembly e computa dados deterministicos sobre o pipeline de CPU.
+
+
