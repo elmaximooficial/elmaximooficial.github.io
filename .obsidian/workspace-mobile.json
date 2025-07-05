@@ -30,8 +30,23 @@
               "icon": "lucide-file",
               "title": "Test"
             }
+          },
+          {
+            "id": "a84f04aca8214f8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projetos/Lynx/RFCs/Lynx Bench.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lynx Bench"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,22 +182,24 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "71f1106f3dcf1200",
+  "active": "a84f04aca8214f8c",
   "lastOpenFiles": [
-    "Relacionados a Lynx/Editor",
-    "Relacionados a Lynx/Docspec",
-    "Relacionados a Lynx/Bench",
-    "Relacionados a Lynx/Defaults",
-    "Relacionados a Lynx/Core",
-    "Relacionados a Lynx/RFCs",
-    "Relacionados a Lynx/Esboços Sortidos",
-    "Untitled",
-    "Relacionados a Lynx",
+    "Projetos/Lynx/RFCs/Template.md",
+    "Projetos/Lynx/RFCs/Lynx Bench.md",
     "Untitled.md",
+    "Esboços de Ideias",
+    "Notas Avulsas",
+    "Projetos/Wrona/Notas Avulsas",
+    "Projetos/Wrona/Áudio",
+    "Projetos/Wrona/Gráficos",
+    "Projetos/Wrona/Design de Sistemas",
+    "Projetos/Wrona/Projeto",
+    "Projetos/Wrona",
+    "Projetos",
+    "Projetos/Lynx/Notas Avulsas",
     "copilot-conversations/Codifique_uma_API_pública_de_um_Archetype_em_um_ECS@20250705_000037.md",
     "copilot-conversations/Access_github.comelmaximooficiallynxtreepre-alpha_and_say_what_is_inside_CONTRIBUTING.md@20250704_235909.md",
     "copilot-conversations/9.11_and_9.8,_which_is_bigger@20250704_234433.md",
-    "copilot-conversations",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
@@ -195,7 +212,6 @@
     "copilot-custom-prompts/Simplify.md",
     "copilot-custom-prompts/Summarize.md",
     "copilot-custom-prompts/Translate to Chinese.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot-custom-prompts"
+    "copilot-custom-prompts/Fix grammar and spelling.md"
   ]
 }
