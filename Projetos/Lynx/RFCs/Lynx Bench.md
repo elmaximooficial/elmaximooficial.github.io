@@ -86,5 +86,5 @@ Quando os runners precisam executar um analisador estático, eles primeiro devem
 ## Ferramentas Dinâmicas
 Analisam informações de performance de processos em execução. Estas ferramentas são as mais poderosas, porém estão sujeitas a erros por motivos aleatórios (número anormal de threads em execução na hora do benchmark por exemplo).
 
-Quando um runner encontra um desses, segue o pipeline descrito na seção 
+Quando um runner encontra um desses, segue o pipeline descrito na seção [Runner](#Runner)
 
