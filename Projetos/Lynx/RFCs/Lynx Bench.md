@@ -1,7 +1,13 @@
 O Lynx Bench é um backend de testes de performance integrado, que tem como objetivo providenciar uma grande gama de testes, sob uma mesma interface (tanto de entrada quanto de saída ), e que seja facilmente automatizável.
 
 ## Frontend
-O Frontend é o que faz interface direta com o usuário, responsável por ler comandos de CLI e JSON, além das macros procedurais que geram testes a partir do código.
+O Frontend é o módulo que interage diretamente com o usuário, ele é responsável por ler argumentos de linha de comando e configurações em formato JSON, também abrangendo as macros procedurais de configuração de benchmark.
+
+Além da interface direta com o usuário,  o Frontend é responsável por planejar a execução e formatar a saída para um padrão estruturado usando Formatters.
+
+```mermaid
+  [*] ---> Test
+```
 
 ### Macros
 Existem duas macros principais: 
