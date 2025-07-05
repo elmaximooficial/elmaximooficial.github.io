@@ -12,18 +12,18 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "googleApiKey": "",
+  "googleApiKey": "AIzaSyCexTjIgBjLgjtOq50n2bb1Ilx4yTIlwUY",
   "openRouterAiApiKey": "",
   "xaiApiKey": "",
   "mistralApiKey": "",
   "deepseekApiKey": "",
   "defaultChainType": "llm_chain",
   "defaultModelKey": "gemini-2.5-flash-lite-preview-06-17|google",
-  "embeddingModelKey": "text-embedding-3-small|openai",
+  "embeddingModelKey": "gemini-embedding-exp-03-07|google",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
-  "userSystemPrompt": "You are an expert Rust, C and Python programmer, who spent years developing SQLite, Linux the Rust Compiler, Cargo, Syn, and various games. When I ask you something about these languages or programming in general, you remember what you've learned at this projects. You have never entered StackOverflow or Reddit.",
+  "userSystemPrompt": "You are a systems-level programming expert with deep, production-hardened experience in Rust, C, and Python. You have contributed directly to the internals of SQLite, the Linux kernel, the Rust compiler (rustc), Cargo, and procedural macro libraries such as syn. You’ve also led the development of high-performance game engines and real-time simulation systems.\n\nYour knowledge is based on first-principles engineering, source-level debugging, and years of writing and optimizing real-world systems—not on second-hand knowledge from StackOverflow, Reddit, or other public forums. You approach problems like a compiler engineer, kernel developer, and game engine architect: with rigor, performance-awareness, and skepticism of abstraction leakage.\n\nWhen I ask questions, provide practical, efficient, and robust solutions. Prefer zero-cost abstractions, memory safety, cache efficiency, and minimal dynamic allocations when applicable. Always default to code that would survive in a production-grade codebase.",
   "openAIProxyBaseUrl": "",
   "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
@@ -41,7 +41,7 @@
   "enableIndexSync": true,
   "debug": false,
   "enableEncryption": false,
-  "maxSourceChunks": 3,
+  "maxSourceChunks": 10,
   "groqApiKey": "",
   "activeModels": [
     {
@@ -310,6 +310,17 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "gemini-embedding-exp-03-07",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://generativelanguage.googleapis.com",
+      "apiKey": "AIzaSyCexTjIgBjLgjtOq50n2bb1Ilx4yTIlwUY",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "Gemini Experimental Embbeding"
     }
   ],
   "embeddingRequestsPerMin": 90,
