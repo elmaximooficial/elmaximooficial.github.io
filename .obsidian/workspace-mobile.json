@@ -18,6 +18,20 @@
             }
           },
           {
+            "id": "32580b4b6b6f2d6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
             "id": "0cad82bccfa77401",
             "type": "leaf",
             "state": {
@@ -31,7 +45,8 @@
               "title": "Test"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,8 +182,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b3830f0515733a04",
+  "active": "32580b4b6b6f2d6d",
   "lastOpenFiles": [
+    "Untitled.md",
     "copilot-conversations/Codifique_uma_API_pública_de_um_Archetype_em_um_ECS@20250705_000037.md",
     "copilot-conversations/Access_github.comelmaximooficiallynxtreepre-alpha_and_say_what_is_inside_CONTRIBUTING.md@20250704_235909.md",
     "copilot-conversations/9.11_and_9.8,_which_is_bigger@20250704_234433.md",

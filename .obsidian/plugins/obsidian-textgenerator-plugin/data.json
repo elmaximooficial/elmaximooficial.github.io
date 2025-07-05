@@ -4,7 +4,7 @@
   "models": [],
   "api_key": "",
   "encrypt_keys": false,
-  "selectedProvider": "Default (Custom)",
+  "selectedProvider": "Google GenerativeAI (Langchain)",
   "max_tokens": 500,
   "temperature": 0.7,
   "frequency_penalty": 0.5,
@@ -109,8 +109,18 @@
       "sanatization_response": "// catch error\nif (res.status >= 300) {\n  const err = data?.error?.message || JSON.stringify(data);\n  throw err;\n}\n\n// get choices\nconst choices = (data.choices || data).map(c=> c.message);\n\n// the return object should be in the format of \n// { content: string }[] \n// if there's only one response, put it in the array of choices.\nreturn choices;",
       "frequency_penalty": 0,
       "presence_penalty": 0.5,
-      "top_p": 1
+      "top_p": 1,
+      "api_key": ""
+    },
+    "Google GenerativeAI (Langchain)": {
+      "model": "gemini-1.5-flash",
+      "api_key": ""
     }
   },
-  "LLMProviderOptionsKeysHashed": {}
+  "LLMProviderOptionsKeysHashed": {
+    "whisper.api_key": "__@#key_prefix#@__",
+    "Default (Custom).api_key": "__@#key_prefix#@__AIzaSyCexTjIgBjLgjtOq50n2bb1Ilx4yTIlwUY",
+    "Google GenerativeAI (Langchain).api_key": "__@#key_prefix#@__AIzaSyCexTjIgBjLgjtOq50n2bb1Ilx4yTIlwUY"
+  },
+  "api_key_encrypted": "__@#key_prefix#@__"
 }
