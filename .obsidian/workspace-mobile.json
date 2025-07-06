@@ -91,7 +91,7 @@
               "state": {
                 "file": "Projetos/Lynx/RFCs/Lynx Bench.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Lynx Bench"
