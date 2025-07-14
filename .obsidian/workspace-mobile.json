@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projetos/Pit/Design/Untitled.md",
+                "file": "Projetos/Pit/Design/Conceito.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Conceito"
             }
           }
         ]
@@ -161,7 +161,7 @@
   "active": "6cc971430dec6602",
   "lastOpenFiles": [
     "Projetos/Lynx/RFCs/Lynx Bench.md",
-    "Projetos/Pit/Design/Untitled.md",
+    "Projetos/Pit/Design/Conceito.md",
     "Projetos/Pit/Templates",
     "Projetos/Pit/Tarefas",
     "Projetos/Pit/Assets",
