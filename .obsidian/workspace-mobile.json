@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projetos/Lynx/RFCs/Lynx Bench.md",
-                "mode": "preview",
+                "file": "Projetos/Pit/Design/Untitled.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lynx Bench"
+              "title": "Untitled"
             }
           }
         ]
@@ -158,8 +158,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "71f1106f3dcf1200",
+  "active": "6cc971430dec6602",
   "lastOpenFiles": [
+    "Projetos/Lynx/RFCs/Lynx Bench.md",
+    "Projetos/Pit/Design/Untitled.md",
     "Projetos/Pit/Templates",
     "Projetos/Pit/Tarefas",
     "Projetos/Pit/Assets",
@@ -167,7 +169,6 @@
     "Projetos/Pit/Técnico",
     "Projetos/Pit/Design",
     "Projetos/Pit",
-    "Projetos/Lynx/RFCs/Lynx Bench.md",
     "copilot-conversations/O_Lynx_Bench_é_um_backend_de_testes_de_performance@20250705_120459.md",
     "Runner.md",
     "copilot-conversations/O_Lynx_Bench_é_um_backend_de_testes_de_performance@20250705_030619.md",
@@ -178,7 +179,6 @@
     "Esboços de Ideias",
     "Notas Avulsas",
     "Projetos/Wrona/Notas Avulsas",
-    "Projetos/Wrona/Áudio",
     "copilot-conversations/Codifique_uma_API_pública_de_um_Archetype_em_um_ECS@20250705_000037.md",
     "copilot-conversations/Access_github.comelmaximooficiallynxtreepre-alpha_and_say_what_is_inside_CONTRIBUTING.md@20250704_235909.md",
     "copilot-conversations/9.11_and_9.8,_which_is_bigger@20250704_234433.md",
