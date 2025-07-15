@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projetos/Pit/Design/Conceito.md",
+                "file": "Projetos/Pit/Enredo/Ato I/Perfeição.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Conceito"
+              "title": "Perfeição"
             }
           }
         ]
@@ -160,8 +160,11 @@
   },
   "active": "6cc971430dec6602",
   "lastOpenFiles": [
-    "Projetos/Lynx/RFCs/Lynx Bench.md",
+    "Projetos/Pit/Enredo/Ato I.md",
+    "Projetos/Pit/Enredo/Ato I/Perfeição.md",
+    "Projetos/Pit/Enredo/Ato I",
     "Projetos/Pit/Design/Conceito.md",
+    "Projetos/Lynx/RFCs/Lynx Bench.md",
     "Projetos/Pit/Templates",
     "Projetos/Pit/Tarefas",
     "Projetos/Pit/Assets",
@@ -178,7 +181,6 @@
     "Untitled.md",
     "Esboços de Ideias",
     "Notas Avulsas",
-    "Projetos/Wrona/Notas Avulsas",
     "copilot-conversations/Codifique_uma_API_pública_de_um_Archetype_em_um_ECS@20250705_000037.md",
     "copilot-conversations/Access_github.comelmaximooficiallynxtreepre-alpha_and_say_what_is_inside_CONTRIBUTING.md@20250704_235909.md",
     "copilot-conversations/9.11_and_9.8,_which_is_bigger@20250704_234433.md",
@@ -193,7 +195,6 @@
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Simplify.md",
     "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md"
+    "copilot-custom-prompts/Translate to Chinese.md"
   ]
 }
