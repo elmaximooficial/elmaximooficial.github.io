@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projetos/Pit/Enredo/Ato I/Perfeição.md",
+                "file": "Projetos/Pit/Enredo/Ato I.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Perfeição"
+              "title": "Ato I"
             }
           }
         ]
@@ -160,8 +160,8 @@
   },
   "active": "6cc971430dec6602",
   "lastOpenFiles": [
-    "Projetos/Pit/Enredo/Ato I.md",
     "Projetos/Pit/Enredo/Ato I/Perfeição.md",
+    "Projetos/Pit/Enredo/Ato I.md",
     "Projetos/Pit/Enredo/Ato I",
     "Projetos/Pit/Design/Conceito.md",
     "Projetos/Lynx/RFCs/Lynx Bench.md",
