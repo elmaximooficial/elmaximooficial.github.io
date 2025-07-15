@@ -4,7 +4,7 @@
 
 O jogo se passa em um mundo fantasioso, onde os habitantes são zoomorfos, cada espécie com capacidades mágicas diversas. 
 
-Nosso protagonista, Pit, vive em uma aldeia feudal próxima ao castelo do Rei Guilhermo, onde, por toda a sua existência, os aldeoes viveram em harmonia.
+Nosso protagonista, Pit, vive em uma aldeia feudal próxima ao castelo do Rei Guilhermo, onde, por toda a existência da aldeia, os aldeoes viveram em harmonia.
 
 No começo do jogo, o jogador poderá andar pela aldeia, conversar com os cidadãos e conhecer a realidade inicial de todos.
 
@@ -12,11 +12,13 @@ A aldeia de sustenta pela plantação de grãos para o rei, e para a própria su
 
 Muitos aldeões estudaram as artes da medicina e da cura (mágica), alguns se tornaram arquitetos, engenheiros, e todos os tipos de profissão. Viviam uma vida harmônica entre si.
 
-Porém, existe uma enorme dor em um dos habitantes da aldeia. Pit, nunca fora rejeitado pelos aldeões ou maltratado, porém, por ser um Cervo, perdeu seus pais muito cedo e nunca conhecera nenhum outro membro da sua espécie.
+O Rei Guilhermo sempre fora brando com seus súditos, não era um rei de muitos luxos porém prezava pelo bem de sua família.
 
-Cervos são almejados por líderes e pessoas poderosas no geral por sua propriedade mágica: seus chifres podem manipular a mente de pessoas, sem que estás sequer percebam. É um nível de magia muito alto, não sendo fácil perceber quando alguém está sendo manipulado ou agindo de própria vontade.
+No entanto, existe uma enorme dor em um dos habitantes da aldeia. Pit, nunca fora rejeitado pelos aldeões ou maltratado, porém, por ser um Cervo, perdera seus pais muito cedo e nunca conhecera nenhum outro membro de sua espécie.
 
-Por conta desta "caça aos cervos", esta é uma espécie rara que, acredita-se, tenha sido extinta. Os pais de Pit foram vítimas de ataques quando o protagonista ainda estava em tenra idade, portanto e os outros cervos do vilarejo já haviam desaparecido há muito tempo.
+Cervos são almejados por líderes e pessoas poderosas no geral por sua propriedade mágica: seus chifres podem manipular a mente de pessoas, sem que estas sequer percebam. É um nível de magia muito alto, não sendo fácil perceber quando alguém está sendo manipulado ou agindo de própria vontade.
+
+Por conta desta "caça aos cervos", esta é uma espécie rara que, acredita-se, tenha sido extinta. Os pais de Pit foram vítimas de ataques quando o protagonista ainda estava em tenra idade, e os outros cervos do vilarejo já haviam desaparecido há muito tempo.
 
 Sendo assim, Pit cresce se sentindo acolhido pela aldeia, mas ao mesmo tempo deslocado por ser o último de sua espécie. 
 
