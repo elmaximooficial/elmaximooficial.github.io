@@ -16,4 +16,6 @@ A câmera será top-down com ângulo de 45° em relação ao solo, com possívei
 
 O áudio deve ser 3D com efeitos comuns (echo, Doppler, decaimento, etc).
 
-A física sera Rigid Soft Body, a 
+A física sera Rigid Soft Body, a engine ainda está para ser definida, porém temos:
+ - Avian3D adaptada
+ - PhysX adaptado (baixíssima propri)
