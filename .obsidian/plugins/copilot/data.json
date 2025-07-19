@@ -338,7 +338,7 @@
   "autocompleteAcceptKey": "Tab",
   "allowAdditionalContext": true,
   "enableWordCompletion": true,
-  "lastDismissedVersion": null,
+  "lastDismissedVersion": "2.9.4",
   "passMarkdownImages": true,
   "enableCustomPromptTemplating": true,
   "suggestedDefaultCommands": true
